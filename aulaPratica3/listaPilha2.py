@@ -43,7 +43,8 @@ while True:
   elif op == 2:
     while True:
         # Chama a função pop para remover o elemento do topo da pilha
-        removido = pop(pilha)
+        removido = pop\
+          (pilha)
 
         if removido is not None:
             print(f'Elemento {removido} removido.')
